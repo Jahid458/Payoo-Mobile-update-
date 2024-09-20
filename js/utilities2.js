@@ -3,3 +3,10 @@ function getInputFeildValueById(id){
     const inputNumber = parseFloat(inputValue);
     return inputNumber;
 }
+
+function getTextFeildValueById(id){
+    const textValue = document.getElementById(id).innerText ;
+    const textNumber = parseFloat(textValue)
+    return textNumber;
+
+}
