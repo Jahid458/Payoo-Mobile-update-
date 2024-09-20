@@ -10,3 +10,8 @@ function getTextFeildValueById(id){
     return textNumber;
 
 }
+
+
+function showSectionById(id){
+  
+}
