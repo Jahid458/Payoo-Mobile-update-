@@ -4,6 +4,10 @@ document.getElementById('btn-add-money')
 
       const addMoney = getInputFeildValueById('input-add-money');
       const pinNumber = getInputFeildValueById('input-pin-number');
+      if(isNaN(addMoney)){
+        alert('Failed to addd money!');
+        return
+      }
       //wrong way to deliver do not try serious issue
       if(pinNumber === 1234){
           const balance = getTextFeildValueById('account-balance');

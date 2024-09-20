@@ -13,3 +13,4 @@ document.getElementById('show-cash-out-form')
       .addEventListener('click', function(){
         showSectionById('transaction-section');
       })
+
